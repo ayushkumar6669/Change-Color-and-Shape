@@ -1,5 +1,3 @@
-import "./styles.css";
-
 var cur = "square";
 
 var shape = [
