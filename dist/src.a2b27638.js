@@ -184,6 +184,10 @@ document.getElementById("shape").onclick = function () {
   document.getElementById(cur).setAttribute("id", rand);
   cur = rand;
 };
+document.getElementById("color").onclick = function () {
+  var randColor = color[Math.floor(Math.random() * color.length)];
+  document.getElementById("block").style.backgroundColor = randColor;
+};
 },{"./styles.css":"src/styles.css"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
